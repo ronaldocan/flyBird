@@ -1,0 +1,66 @@
+#wrapBg{
+    width:343px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/bg.jpg");
+    top : 100px;
+    overflow: hidden;
+}
+#headTitle{
+    width: 236px;
+    height: 77px;
+    background-image: url("../img/head.jpg");
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+#headBird{
+    float: right;
+    margin-top: 25px;
+}
+#startButton{
+    padding : 0;
+    margin : 0;
+    width : 85px;
+    height : 29px;
+    background-image: url("../img/start.jpg");
+    position: absolute;
+    left : 125px;
+    top : 200px;
+}
+#grassLand1{/*草地1*/
+    height: 14px;width: 343px;
+    background-image: url("../img/banner.jpg");
+    position: absolute;top: 423px;
+}
+#grassLand2{/*草地2*/
+    height: 14px;width: 343px;
+    background-image: url("../img/banner.jpg");
+    position: absolute;top: 423px;left: 343px;
+}
+#score{
+    position: absolute;
+    left : 160px;
+    top : 50px;
+    z-index: 1;
+}
+#score div{
+    height: 39px;
+    width: 28px;
+    float: left;
+    background-image: url("../img/0.jpg");
+    display: none;
+}
+#gameOver{
+    position: absolute;
+    top : 150px;
+    text-align: center;
+    display: none;
+    z-index: 1;
+}
+#fscore{
+    position: absolute;
+    top : 50px;
+
+}
